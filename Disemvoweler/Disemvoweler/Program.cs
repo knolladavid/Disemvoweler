@@ -1,17 +1,21 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Disemvoweler
 {
-    internal class Program
+    class Program
     {
-        private static void Main(string[] args)
+        static void Main(string[] args)
         {
             // keep the console open
             Console.ReadKey();
         }
-
         public static string Disemvoweler(string input)
         {
+
             // Write out the various string results
             Console.WriteLine("Original: ");
             Console.WriteLine("Disemvoweled: ");
